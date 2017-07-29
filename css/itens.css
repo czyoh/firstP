@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:solid 0;
+    list-style: none;
+    text-decoration: none;
+}
+.myBG{
+    width: 100%;
+    height: 5255px;
+    background: #f1f1f1;
+}
+.juzhong{
+    width: 100%;
+    background: #fff;
+}
+footer{
+    width:1188px;
+    height: 230px;
+    margin: 0 auto;
+    background: #fff;
+}
+.myBackground{
+    width:1168px;
+    height: 5034px;
+    background-color: #FFFFFF;
+    border: solid 1px #e8e8e8;
+    margin:0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+.myBackground h3{
+    text-align: center;
+    font-family:宋体;
+    color: #3c3c3c;
+    font-size: 18px;
+}
+.myBackground h3 img{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.myp{
+    color: #999999;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.containBox6 li{
+    width: 224px;
+    height:306px;
+    background-color: #f5f5f5;
+    margin-bottom: 25px;
+    margin-left: 8px;
+    float: left;
+    position: relative;
+    cursor:pointer;
+}
+.containBox6 li img{
+    width: 222px;
+    height: 220px;
+    border: solid 1px #f5f5f5;
+    border-bottom: none;
+
+}
+.myWz{
+    width: 192px;
+    height: 30px;
+    margin:0 auto;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #6c6c6c;
+}
+.containBox6 h2{
+    width: 235px;
+    height: 30px;
+    float: left;
+    color:#e3dde3 ;
+    margin-left: 460px;
+    margin-bottom: 10px;
+    background: url("image/images/ds.jpg") no-repeat;
+}
+.myMn{
+    color: #ff4400;
+    margin-left: 10px;
+   line-height: 55px;
+}
+.myHezi{
+    width:1190px;
+    height: 110px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.myhezi{
+    width: 245px;
+    height: 95px;
+    margin-left: 41px;
+    float: left;
+}
+.containBox6 h4{
+    width: 245px;
+    height: 48px;
+    font-size: 100%;
+}
+.containBox6 h4 span{
+    line-height: 30px;
+    color: #3c3c3c;
+    letter-spacing:2px ;
+}
+.Tubia1{
+    width: 32px;
+    height: 32px;
+    background: url("image/images/s1.jpg") no-repeat ;
+    padding-right: 15px;
+    float: left;
+}
+.Tubia2{
+    width: 32px;
+    height: 32px;
+    background: url("image/images/s3.jpg") no-repeat ;
+    padding-right: 15px;
+    float: left;
+}
+.Tubia3{
+    width: 32px;
+    height: 32px;
+    margin-top: 5px;
+    background: url("image/images/s2.jpg") no-repeat ;
+    padding-right: 15px;
+    float: left;
+}
+.Tubia4{
+    width: 32px;
+    height: 32px;
+    background: url("image/images/s4.jpg") no-repeat ;
+    padding-right: 15px;
+    float: left;
+}
+.lll{
+    font-size: 13px;
+}
+.lll a{
+    margin-right: 12px;
+    color: #999999;
+}
+.WenziHezi{
+    width: 1190px;
+    height: 60px;
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 1px #dddddd;
+    padding-top: 10px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+b{
+    color: #e3dde3;
+    margin: 0 8px;
+}
+.WenziHezi p{
+    float: left;
+}
+.WenziHezi a{
+    color: #6c6c6c;
+}
+.myap{
+    font-size: 12px;
+}
+.myap a{
+    color: #6c6c6c;
+    margin-right: 5px;
+}
+.myap p{
+    color: #9c9c9c;
+    line-height: 20px;
+}
+.myimg{
+    width: 1190px;
+    height: 94px;
+    background: url("image/images/d3.jpg") no-repeat -6px 0;
+}
+.lc{
+    width: 224px;
+    height:85px;
+    position: absolute;
+    background: url("image/images/lc.jpg") no-repeat bottom;
+    bottom: 0px;
+    display: none;
+
+ }
+.lc-hover {
+    display: block;
+}
+.iiii{
+    width: 121px;
+    height: 20px;
+    font-size: 12px;
+    color: #6c6c6c;
+    font-style: normal;
+    position: absolute;
+    z-index:99999;
+    background-color: #FFFFFF;
+    border: solid 1px #9c9c9c;
+    display: none;
+}

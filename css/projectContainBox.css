@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f5f5f5;
+}
+.jiade{
+    width: 1190px;
+    height: 1850px;
+    margin:0 auto;
+    border:1px solid green;
+}
+.containBox4{
+    width: 1190px;
+    height: 570px;
+    margin:auto;
+}
+.containBox4 .containBox4Top{
+    width: 890px;
+    height: 37px;
+    /*float: left;*/
+    /*border:1px solid #000;*/
+    position: relative;
+    /*margin-left: 1px;*/
+}
+.containBox4 .containBox4Top .topImg{
+     width: 230px;
+    height: 37px;
+    margin:0 auto;
+    /*border:1px solid #000;*/
+    background: url(../image/containBox/icons.png) no-repeat 0px -520px;
+}
+.containBox4 .containBox4Top a{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 60px;
+    height:20px;
+    border-radius: 10px;
+    background:white;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px 0 0;
+}
+.containBox4 .containBox4Top a:hover{
+    background: #ff4400;
+    color: white;
+}
+.containBox4 .box4content{
+    width: 890px;
+    height: 533px;
+    float: left;
+    /*outline: 1px dashed green;*/
+    /*overflow: hidden;*/
+}
+.containBox4 .box4content .conBox1,.conBox2,.conBox3,.conBox4,.conBox5,.conBox6,.conBox7,.conBox8{
+    width: 221px;
+    height: 260px;
+    float: left;
+    /*z-index: 100;*/
+    margin-left: 1px;
+    /*outline: 1px solid #000;*/
+    margin-bottom: 10px;
+    cursor:pointer;
+   }
+.containBox4 .box4content .conBox1:hover{
+    outline:1px solid #f00;
+   }
+   .containBox4 .box4content .conBox2:hover{
+    outline:1px solid #f00;
+   }.containBox4 .box4content .conBox3:hover{
+    outline:1px solid #f00;
+   }.containBox4 .box4content .conBox4:hover{
+    outline:1px solid #f00;
+   }.containBox4 .box4content .conBox5:hover{
+    outline:1px solid #f00;
+   }.containBox4 .box4content .conBox6:hover{
+    outline:1px solid #f00;
+   }.containBox4 .box4content .conBox7:hover{
+    outline:1px solid #f00;
+   }.containBox4 .box4content .conBox8:hover{
+    outline:1px solid #f00;
+   }
+.containBox4 .box4content .contentTop{
+    width: 221px;
+    height: 38px;
+    /*float: left;*/
+    background: #fff;
+    /*margin-left: 1px;*/
+    /*border:1px solid #000;*/
+    line-height: 38px;
+    margin-bottom: 1px;
+   }
+.contentTop .conImg{
+   width: 130px;
+   height: 28px;
+   position: relative;
+   /*border:1px solid #000;*/
+   background: url(../image/containBox/con1.jpg) no-repeat right bottom;
+   background-size:85px 18px;
+   float: left;
+}
+.conImg .ImgDis{
+    width: 80px;
+    height:104px;
+    outline: 1px solid #cccccc;
+    background: white;
+    text-align: center;
+    position: absolute;
+    /*float: left;*/
+    z-index: 100;
+    top: 40px;
+    right: -60px;
+    font-size: 12px;
+    padding: 2px 10px 0 0px;
+    display: none;
+}
+.conImg .ImgDis p{
+    margin-top: -20px;
+    padding-left: 8px;
+}
+.conContent a:hover img{
+    opacity:0.8;
+}
+.conContent a:hover span{
+    color:red;
+}
+.conBox2 .conImg{
+    background: url(../image/containBox/con2.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.conBox3 .conImg{
+    background: url(../image/containBox/con3.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.conBox4 .conImg{
+    background: url(../image/containBox/con4.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.conBox5 .conImg{
+    background: url(../image/containBox/con5.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.conBox6 .conImg{
+    background: url(../image/containBox/con6.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.conBox7 .conImg{
+    background: url(../image/containBox/con7.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.conBox8 .conImg{
+    background: url(../image/containBox/con8.jpg) no-repeat right bottom;
+    background-size:85px 18px;
+}
+.contentTop img{
+    padding-top: 9px;
+    padding-left: 10px;
+    /*border:1px solid #000;*/
+    /*width: 25px;
+    height: 25px;*/
+}
+.conContent{
+    width: 221px;
+    height: 220px;
+    /*overflow: hidden;*/
+}
+.conContent a{
+    display: block;
+    width: 110px;
+    height: 110px;
+    /*margin-left: 1px;*/
+    margin-bottom: 1px;
+    /*background: */
+    background: #fff;
+    float: left;
+    font-size: 14px;
+    color:#3c3c3c;
+    position: relative;
+}
+/*.conContent a:first-child{
+    margin-left: 0;
+}*/
+.conContent .mLeft{
+    margin-left: 1px;
+}
+.conContent a img{
+    width: 90px;
+    height: 90px;
+    /*float: left;*/
+    padding: 10px;
+}
+.conContent a span{
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    height: 20px;
+    right: 10px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,.8);
+}
+.eduBox1{
+    width: 221px;
+    height: 151px;
+    padding-top: 10px;
+    /*outline: 1px solid #000;*/
+    background: #fff;
+    margin-bottom: 1px;
+}
+.eduBox1 img{
+    width: 90px;
+    height: 90px;
+}
+.eduBox1 h3{
+ /*display: block;*/
+    font-size: 14px;
+    /*padding-right: 5px;*/
+    margin-top: 5px;
+    margin-bottom: 4px;
+    height: 21px;
+    width: 90px;
+    /*float: left;*/
+    /*width: 110px;*/
+    overflow: hidden;
+    text-align: center;
+}
+.eduBox1 p{
+        /*display: block;*/
+    height: 18px;
+    width: 90px;
+    /*padding-left: 5px;*/
+    overflow: hidden;
+    font-size: 14px;
+    /*padding-left: 17px;*/
+    text-align: center;
+}
+.eduBox1Left:hover img{
+    opacity:0.8;
+}
+.eduBox1Left:hover h3,.eduBox1Left:hover p{
+    color:red;
+}
+.eduBox1Right:hover img{
+    opacity:0.8;
+}
+.eduBox1Right:hover h3,.eduBox1Right:hover p{
+    color:red;
+}
+.eduBox1Left{
+    width: 100px;
+    padding-left: 10px;
+    float: left;
+}
+.eduBox1Left{
+    width: 100px;
+    padding-right: 10px;
+    float: left;
+    margin-left: 1px;
+}
+.eduBox2{
+    width: 221px;
+    height: 50px;
+    padding-top: 10px;
+    /*border:1px solid #000;*/
+    background: #fff;
+}
+.eduBox2 a{
+    display: inline-block;
+    width: 65px;
+    text-align: center;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 0 4px;
+    font-size: 12px;
+    text-decoration: none;
+    color:#3c3c3c;
+}
+.eduBox2 a:hover{
+    color:red;
+}
+.containBox5{
+    width: 1190px;
+    height: 313px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    /*float: left;*/
+
+    /*border:1px solid #000;*/
+}
+.containBox5 .box5ConTop{
+    width: 890px;
+    height: 37px;
+    /*border:1px solid #000;*/
+    position: relative;
+}
+.containBox5 .box5ConTop .conTopTip{
+     width: 230px;
+    height: 37px;
+    margin:0 auto;
+    /*border:1px solid #000;*/
+    background: url(../image/containBox/icons.png) no-repeat 0px -560px;
+}
+.containBox5 .box5ConTop a{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 60px;
+    height:20px;
+    border-radius: 10px;
+    background:white;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px 0 0;
+}
+.containBox5 .box5ConTop a:hover{
+    background: #ff4400;
+    color: white;
+}
+.box5Contain{
+    width: 890px;
+    height: 277px;
+    /*border:1px solid #00f;*/
+    /*overflow: hidden;*/
+}
+.box5Contain .tainBox1{
+    width: 258px;
+    height: 117px;
+    padding:10px;
+    position: relative;
+    float:left;
+    /*margin-bottom: 1px;*/
+    /*overflow: hidden;*/
+    background: #fff;
+    /*outline: 1px dotted #0f0;*/
+}
+.box5Contain .tainBox1 h3 img{
+    width: 64px;
+    height: 18px;
+    float: left;
+}
+.box5Contain .tainBox1 h3{
+    width: 253px;
+    height: 33px;
+    position: relative;
+}
+.box5Contain .tainBox2:hover{
+    outline: 1px solid red;
+}
+.box5Contain .tainBox1:hover h3 img{
+    opacity:0.8;
+}
+.box5Contain .tainBox1:hover h2 img{
+    opacity:0.8;
+}
+.box5Contain .tainBox1:hover{
+    outline:1px solid red;
+}
+.box5Contain .tainBox1 h3 i{
+    display: inline-block;
+    float: left;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    margin-left: 10px;
+    /*margin-top: 0px;*/
+    /*padding-left: 5px;*/
+    background: url(../image/containBox/icon04.jpg) no-repeat;
+    /*background-size:;*/
+}
+.box5Contain h3 i .ImgDis{
+    width: 80px;
+    height:104px;
+    outline: 1px solid #cccccc;
+    background: white;
+    text-align: center;
+    position: absolute;
+    /*float: left;*/
+    z-index: 100;
+    top: 30px;
+    right: -33px;
+    font-size: 12px;
+    padding: 2px 10px 0 0px;
+    display: none;
+}
+.box5Contain h3 i .ImgDis img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.box5Contain .tainBox1 h3 i .ImgDis p{
+   float: left;
+   margin-left: 8px;
+}
+.box5Contain .tainBox1 h3 i:hover{
+    background: url(../image/containBox/icon03.jpg) no-repeat;
+}
+.tainBox1 h3 .stratTime{
+    position: absolute;
+    left: 134px;
+    top: -2px;
+    font-weight: normal;
+    overflow: hidden;
+    line-height: 24px;
+    height: 24px;
+    width: 114px;
+    font-size: 14px;
+    color: #dc3535;
+    text-align: right;
+}
+.star{
+    float: left;
+    width: 258px;
+    height: 90px;
+    position: relative;
+}
+.star h4{
+    width: 148px;
+    height: 32px;
+    overflow: hidden;
+    font-weight: normal;
+    color: #4c4d4e;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.star span{
+    display: block;
+    width: 148px;
+    line-height:18px;
+    height: 18px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.star .price{
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3535;
+}
+.star .count{
+    font-size: 12px;
+    /*line-height: 14px;*/
+    color: #999999;
+    font-weight: normal;
+}
+.starImg{
+    /*float: left; */
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right:0px;
+    top:0;
+}
+.starImg img{
+    width: 90px;
+    height: 90px;
+    /*float: left;*/  
+}
+.tainBox2{
+    width: 183px;
+    height: 117px;
+    padding:10px;
+    position: relative;
+    float:left;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    background: #fff;
+    /*outline: 1px dotted #0f0;*/
+}
+.tainBox2 .box2Top h3{
+    width: 253px;
+    height: 33px;
+    position: relative;
+}
+.tainBox2 h3 img{
+    width: 64px;
+    height: 18px;
+    float: left;
+}
+.tainBox2 h3 i{
+    display: block;
+    /*float: left;*/
+    position: absolute;
+    right:100px;
+    width: 19px;
+    z-index: 100;
+    height: 19px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 0px;
+    background: url(../image/containBox/icon04.jpg) no-repeat 0 0px;
+}
+.tainBox2 h3 i:hover{
+    background: url(../image/containBox/icon03.jpg) no-repeat 0 0px;
+}
+.box2tent{
+    width: 183px;
+    height: 90px;
+    position: relative;
+}
+.box2tent span{
+    display: block;
+    width: 148px;
+    line-height:18px;
+    height: 18px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.box2tent span:first-child{
+    color:#000;
+    font-weight: bold;
+}
+.box2tent a{
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 74px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #F40;
+    color: #F40;
+    overflow: hidden;
+    margin-top: 15px;
+    border-radius:10px;
+    background-clip: padding-box;
+}
+.box2tent .starImg{
+    padding-top: 30px;
+}
+.containBox5 img:hover{
+    opacity:0.8;
+}
+.box5Ad{
+    width: 1190px;
+    margin:auto;
+    height: 70px;
+    margin-bottom: 20px;
+}
+.box5Ad .box5AdImg{
+    width: 890px;
+    height: 70px;
+    background: url(../image/containBox/boxAd.jpg) no-repeat;
+    background-size:100%;
+}

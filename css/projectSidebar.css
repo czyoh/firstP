@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.sidebar{
+	width: 300px;
+	overflow: auto;
+	min-height:2620px;
+	/*float: right;*/
+	position: absolute;
+	right:-10px;
+	top:10px;
+	/*margin-left: 10px;*/
+	/*margin-right: 100px;*/
+	/*outline: 1px solid #0f0;*/
+}
+.sidebar .toutiao{
+	width: 270px;
+	height: 90px;
+	padding:10px;
+	/*outline: 1px dotted #f00;*/
+    background: #fff;
+    margin-bottom: 10px;
+} 
+.sidebar .toutiao h3{
+   /*width: 270px;*/
+   height: 18px;
+   position: relative;
+   background: url(../image/sidebar/icons.png) no-repeat 0 -770px;
+}
+.sidebar .toutiao h3 a{
+	position: absolute;
+    right: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
+.sidebar .toutiao .toutiaoMain{
+	width: 270px;
+	height: 80px;
+	/*outline:1px solid #f00;*/
+	overflow:hidden;
+	position: relative;
+}
+.sidebar .toutiao .toutiaoRan{	
+	width: 270px;
+	height: 240px;
+	position: absolute;
+	top:0px;
+	left:0;
+	transition: all ease-out 0.8s;
+}
+.sidebar .toutiao .toutiaoCon{
+	cursor:pointer;
+	width: 270px;
+	height: 80px;
+}
+.sidebar .toutiao .toutiaoCon:hover img{
+	opacity:0.8;
+}
+.sidebar .toutiao .toutiaoCon:hover h4{
+	color:red;
+}
+.toutiao img{
+	width: 64px;
+	height: 34px;
+	float: left;
+	margin-top: 10px;
+}
+.sidebar .toutiao .toutiaoCon h4{
+	color: #333;
+    height: 18px;
+    padding-top: 10px;
+    overflow: hidden;
+    /*display: block;*/
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    /*float: left;*/
+    /*width: 178px;*/
+    margin-bottom: 5px;
+}
+.toutiao .wenzi{
+	float: left;
+	width: 187px;
+	/*border:1px solid #000;*/
+	padding-left: 15px;
+}
+.toutiaoCon p{
+	color: #333;
+    height: 38px;
+    overflow: hidden;
+    /*display: block;*/
+    line-height:18px;
+    font-size: 12px;
+    float: left;
+    /*font-weight: 700;*/
+}
+.sideContain{
+	width: 270px;
+	height: 1190px;
+	padding:0 10px;
+	background: #fff;
+	/*outline: 1px solid #0f0;*/
+	margin-bottom: 10px;
+}
+.sideContain h2{
+	height: 51px;
+	/*outline: 1px solid #000;*/
+	background: url(../image/sidebar/icons.png) no-repeat 0 -635px;
+}
+.sideConboxAll{
+	width: 270px;
+	/*height: 1000px;*/
+	/*outline:1px solid #000;*/
+}
+.sideContain .sideConbox1{
+    width: 270px;
+    height: 100px;
+    /*border:1px solid #000;*/
+    margin-bottom: 10px;
+}
+.sideConbox1 .haohuo{
+	width: 170px;
+	float: left;
+	/*border:1px solid #000;*/
+}
+.sideConbox1 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.sideConbox1 .haohuo h6{
+	color: #333;
+    height: 18px;
+    padding-top: 10px;
+    overflow: hidden;
+    /*display: block;*/
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+    /*float: left;*/
+    /*width: 178px;*/
+    margin-bottom: 5px;
+}
+.sideConbox1:hover h6{
+	color:red;
+}
+.sideConbox1:hover img{
+	opacity:0.8;
+}
+.sideConbox1 .haohuo p{
+	color: #333;
+    height: 38px;
+    overflow: hidden;
+    /*display: block;*/
+    line-height:18px;
+    padding-left: 10px;
+    font-size: 12px;
+    /*float: left;*/
+}
+.sideConbox1 .haohuo span{
+	    color: #68acf5;
+	    font-size: 12px;
+	    font-weight: bold;
+	    padding-left: 10px;
+}
+.more{
+	height: 27px;
+	line-height: 27px;
+	padding-top: 15;
+	padding-bottom: 10px;
+	/*width: 270px;*/
+	text-align:center;
+	/*border:1px solid #0f0;*/
+}
+.sideFooter{
+	width: 270px;
+	height: 300px;
+	padding:10px;
+	/*outline: 1px solid #f00;*/
+	background-color:#fff;
+	margin-bottom: 3px;
+}
+.sideFooter h2{
+	width: 270px;
+	height: 36px;
+	margin-bottom: 20px;
+	background: url(../image/sidebar/icons.png) no-repeat 0 -795px;
+}
+.sideFooter:hover h3{
+	color:red;
+}
+.haodian{
+	width: 270px;
+	height: 241px;
+	background: #fff;
+	margin-bottom: 3px;
+	/*outline: 1px solid #f00;*/
+	position: relative;	
+}
+.haodian h3,.haodian2 h3{
+	font-size: 16px;
+	color:#3c3c3c;
+	margin-bottom: 10px;
+}
+.haodian p,.haodian2 p{
+	font-size: 14px;
+	color:#333;
+	margin-bottom: 10px;
+}
+.haoImg{
+	width: 89px;
+	height: 180px;
+	/*border:1px solid #000;*/
+}
+.haoImg img{
+	width: 89px;
+	/*margin-bottom: 1px;*/
+	height: 90px;
+}
+.im{
+	width: 180px;
+	height: 181px;
+	position: absolute;
+	/*margin-left: 1px;*/
+	right:0;
+	bottom:0;
+}
+.haoImg:hover img{
+	opacity: 0.8;
+}
+.haodian2{
+	width: 270px;
+	height: 234px;
+	padding:10px;
+	background: #fff;
+	margin-bottom: 3px;
+	/*outline: 1px solid #f00;*/
+	position: relative;	
+}
+.seemore{
+	 width: 290px;
+	 padding-top: 15px;
+	 padding-bottom: 10px;
+	 height: 20px;
+	 /*line-height: 20px;*/
+	 background: #fff;
+	 text-align: center;
+}
+.seemore i,.more i{
+	display: inline-block;
+	float: left;
+	margin-left: 100px;
+	width: 25px;
+	height: 25px;
+	background: url(../image/sidebar/con50.gif) no-repeat 0 -5px;
+}
+.more i{
+	margin-top: 4px;
+}
+.seemore:hover i,.more:hover i{
+	background: url(../image/sidebar/con50_1.gif) no-repeat -4px -4px;
+}
+.seemore:hover a,.more:hover a{
+	color:red;
+}
+.seemore a,.more a{
+     text-decoration: none;
+     float: left;
+     color:#666;
+     font-size: 14px;
+     font-weight: bold;
+}
+.sideAd{
+	/*padding:10px;*/
+	width: 270px;
+}
+.sideAd h3{
+	font-size: 16px;
+	padding:11px 0 5px 10px;
+}
+

@@ -1,0 +1,647 @@
+*{
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+}
+/*头部*/
+.tb-top{
+    width: 100%;
+    height:36px;
+    background: #f5f5f5;
+    outline: 1px solid #eeeeee;
+}
+.tb-top-ul{
+    width:1190px;
+    height:36px;
+    margin: auto;
+    line-height: 36px;
+}
+
+.tb-top-li{
+    float: left;
+    width:520px;
+    height:36px;
+    list-style: none;
+}
+.tb-top-li2{
+    height:36px;
+    float: right;
+    width: 670px;
+    list-style: none;
+}
+.tb-top-li a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    line-height: 36px;
+    display: block;
+    width: 80px;
+    float: left;
+    text-align: center;
+    height:36px;
+}
+.tb-top-li a:hover span{
+    color: black;
+}
+.tb-top-li a:hover p{
+    color: black;
+}
+.tb-top-li a:hover{
+    color: red;
+}
+
+
+.tb-top-li2 a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+    line-height: 36px;
+    display: block;
+    width: 80px;
+    float: left;
+    text-align: center;
+    height:36px;
+}
+.tb-top-li2 a:hover span{
+    color: black;
+}
+.tb-top-li2 a:hover p{
+    color: black;
+}
+.tb-top-li2 a:hover{
+    color: red;
+}
+.myImg{
+   float: right; margin: 16px 5px 0 0;
+}
+.hove:hover{
+    background: white;
+}
+/*隐藏的div*/
+.myTaoBao{
+    width: 80px;
+    height:65px;
+    background: white;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    font-size: 12px;
+    text-align: left;
+    line-height: 25px;
+    padding-top: 10px;
+    position: absolute;
+}
+.myTaoBao p{
+    width: 77px;
+    line-height: 25px;
+    padding-left: 5px;
+    height:25px;
+}
+.myTaoBao p:hover{
+    background: #f5f5f5;
+}
+.myTaoBao-bBox{
+    width: 296px;
+    float: left;
+    height:325px;
+    border-right: 1px solid #eeeeee;
+}
+.myTaoBao-bBox li{
+    float: left;
+    width: 50px;
+    height:300px;
+    list-style: none;
+    margin-left: 10px;
+}
+.myTaoBao-bBox ul strong{
+    display: block;
+    color: red;
+    float: left;
+    width: 260px;
+    font-size: 17px;
+    line-height: 40px;
+    padding-left: 10px;
+    height:40px;
+}
+.myTaoBao-bBox li a{
+    display: block;
+    float: left;
+    width: auto;
+    height:25px;
+    color: black;
+    text-align:left;
+    line-height: 25px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+.myTaoBao-bBox li a:hover{
+    background: #ff5500;
+    color: white;
+}
+.myTaoBao-bBox li a img{
+    position: absolute;
+    top:-3px;
+    right:-3px;
+}
+.myTaoBao-bBox li span{
+    display: block;
+    width: 58px;
+    height:25px;
+}
+
+/*导航*/
+.banner{
+    width: 1190px;
+    height:95px;
+    margin: auto;
+}
+.banner-left{
+    width: 300px;
+    height:72px;
+    float: left;
+}
+.banner-left-img1{
+    float: left;
+    margin-top: 17px;
+}
+.banner-left-img2{
+    float: right;
+    margin: 8px 3px 0 0;
+}
+.banner-left p{
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    float: left;
+    width: 75px;
+    height:20px;
+    text-align: center;
+    margin-top: 40px;
+    outline: 1px solid #cccccc;
+}
+.banner-right{
+    width: 420px;
+    height:72px;
+    float: right;
+
+}
+.banner-right div{
+    margin-top: 33px;
+    width: 350px;
+    height:30px;
+
+    float: left;
+}
+.banner-right div input{
+    width: 276px;
+    height:26px;
+    float: left;
+    display: block;
+    border: 2px solid coral;
+}
+.banner-right div button{
+    width: 68px;
+    border: none;
+    background: coral;
+    color: white;
+    float: left;
+    height:30px;
+    display: block;
+    cursor: pointer;
+}
+.banner-right p {
+    width: 66px;
+    height: 28px;
+    float: left;
+    background: #ffe4d0;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #ffb086;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+/*点名*/
+.TbName{
+    width: 1190px;
+    height:127px;
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+    line-height: 127px;
+    font-family: "Brush Script MT";
+}
+.TbName-banner{
+    width: 100%;
+    height:30px;
+    background: black;
+}
+.TbName-banner ul{
+    width: 1190px;
+    height:30px;
+    margin: auto;
+}
+.TbName-banner ul li{
+    margin-left: 100px;
+    list-style: none;
+}
+.TbName-banner ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    width: 88px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    display: block;
+    float: left;
+}
+.TbName-banner ul li a:hover{
+    background: white;
+    color: black;
+}
+/*内容*/
+.TbContent{
+    width: 1158px;
+    height:490px;
+    border: 1px solid #cccccc;
+    margin: 10px auto;
+    padding: 20px;
+}
+.TbContent-left{
+    position: relative;
+    width: 420px;
+    height:490px;
+    float: left;
+}
+.TbContent-left-bigImg1{
+    width: 400px;
+    height:400px;
+    margin-bottom: 10px;
+}
+
+.TbContent-left-smallImg1{
+    position: relative;
+    width: 50px;
+    height:50px;
+    margin-right: 10px;
+}
+.TbContent-left-smallImg1:hover{
+    outline: 2px solid coral;
+}
+.TbContent-left p label{
+    color: #666;
+    line-height: 30px;
+    width: 140px;
+    font-size: 12px;
+    height:30px;
+    display:block;
+    float: left;
+}
+.TbContent-left p label a{
+    float: right;
+}
+.TbContent-left p span{
+    color: #666;
+    line-height: 30px;
+    width: 40px;
+    height:30px;
+    text-align: right;
+    font-size: 12px;
+    display: block;
+    float: left;
+}
+.TbContent-cont{
+    position: relative;
+    width: 500px;
+    height:490px;
+    float: left;
+}
+/*放大*/
+.TbContent-left-hide{
+    left: 510px;
+    width: 400px;
+    height:400px;
+    z-index: 100;
+    display: none;
+    position: absolute;
+    outline: 1px solid #cccccc;
+    overflow: hidden;
+}
+.TbContent-left-hide2{
+    width: 400px;
+    height:400px;
+    position: relative;
+}
+.TbContent-left-smallbox{
+    background: black;
+    opacity: 0.2;
+    width: 100px;
+    display: none;
+    height:100px;
+    position: absolute;
+}
+.TbContent-left-hide img{
+    width: 800px;
+    height:800px;
+    position: absolute;
+}
+.TbContent-cont-font{
+    padding: 10px;
+    width: 480px;
+    height:57px;
+    background: #fff2e8;
+    float: left;
+    margin-top: 20px;
+}
+.TbContent-cont-font1{
+    height:37px;
+    width: 480px;
+    float: left;
+}
+.TbContent-cont-font1 p:first-child{
+    float: left;
+}
+.TbContent-cont-font1 p:first-child span{
+    width: 60px;
+    height:20px;
+    font-size: 12px;
+    display: block;
+    float: left;
+}
+.TbContent-cont-font1 p:last-child{
+    float: right;
+    font-size: 12px;
+    width: 142px;
+}
+.TbContent-cont-font1 p:last-child label{
+    width: 70px;
+    border-right: 1px solid #ffe4d0;
+    height:37px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.TbContent-cont-font2{
+    width: 480px;
+    height:28px;
+    float: left;
+}
+.TbContent-cont-font2 p span{
+    width: 60px;
+    height:28px;
+    font-size: 12px;
+    display: block;
+    float: left;
+}
+.TbContent-cont-font2 p label{
+    width: 56px;
+    display: block;
+    float: left;
+    height:20px;
+    color: white;
+    background: coral;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin:2px 0 0 5px;
+    cursor: pointer;
+}
+.TbContent-cont-font3{
+    height:15px;
+    width: 480px;
+    float: left;
+    background: #fff9f5;
+    padding: 10px;
+}
+.TbContent-cont-font3 span{
+    width: 60px;
+    height:20px;
+    font-size: 12px;
+    display: block;
+    float: left;
+}
+.TbContent-cont-font3 span a{
+    height:20px;
+    width: 100px;
+    display: block;
+    float: left;
+}
+.TbContent-cont-font4{
+    height:15px;
+    width: 480px;
+    float: left;
+    border-bottom: 1px dashed #cccccc;
+    padding: 10px;
+}
+.TbContent-cont-font4 p{
+    width: 60px;
+    height:20px;
+    font-size: 12px;
+    float: left;
+}
+.TbContent-cont-font4 p a{
+    cursor: pointer;
+}
+.TbContent-cont-font5{
+    height:20px;
+    width: 480px;
+    float: left;
+    padding: 10px;
+}
+.TbContent-cont-font5 p{
+    width: 60px;
+    height:20px;
+    font-size: 12px;
+    float: left;
+}
+.TbContent-cont-font5 p span{
+    display: block;
+    float: left;
+    width: 30px;
+    line-height: 20px;
+    text-align: center;
+    height:20px;
+    border: 2px solid coral;
+    cursor: pointer;
+    color: red;
+}
+.TbContent-cont-font6{
+    height:30px;
+    width: 480px;
+    float: left;
+    padding: 10px;
+}
+.TbContent-cont-font6 p{
+    width: 60px;
+    height:20px;
+    font-size: 12px;
+    float: left;
+}
+.TbContent-cont-font6 p span{
+    cursor: pointer;
+    width: 30px;
+    height:30px;
+    padding: 3px;
+    display: block;
+    float: left;
+    margin-right: 8px;
+    border: 1px solid #cccccc;
+}
+.TbContent-cont-font6 img{
+    width: 30px;
+    height:30px;
+}
+.TbContent-cont-font6 button{
+    cursor: pointer;
+    width: 29px;
+    height:26px;
+}
+.TbContent-cont-font6 input{
+    text-align: center;
+    width: 50px;
+    height:22px;
+}
+.TbContent-cont-font7{
+    height:35px;
+    width: 480px;
+    float: left;
+    padding: 10px;
+}
+.TbContent-cont-font7 button{
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 136px;
+    height:39px;
+    background: #ffe4d0;
+    color: #ee8c1d;
+    border: 1px solid #f0cab6;
+}
+.TbContent-right{
+    width: 173px;
+    height:480px;
+    float: left;
+    padding:10px 20px 0 20px;
+    margin-left: 20px;
+    border: 1px solid #cccccc;
+}
+.TbContent-right-tu1{
+    float: left;
+    position: relative;
+    width: 175px;
+    height:150px;
+}
+.TbContent-right-tu1 p{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 175px;
+    height:30px;
+    background:white;
+    opacity: 0.7;
+}
+.TbContent-right-tu1 img{
+    width: 175px;
+    height:140px;
+}
+/*隐藏box*/
+.ycBox{
+    display: none;
+    width: 160px;
+    height:300px;
+    background: black;
+    color: white;
+    position: absolute;
+}
+.ycBox p{
+    width: 140px;
+    height:30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.ycBox p span{
+    float: right;
+    color: white;
+    margin-right: 5px;
+}
+.ycBox p:hover{
+    background: white;
+    color: black;
+}
+.ycBox p:hover span{
+    color: black;
+}
+
+.ycBox2{
+    top:0;
+    left:160px;
+    display: none;
+    width: 160px;
+    height:300px;
+    background: black;
+    color: white;
+    position: absolute;
+}
+.ycBox2 p{
+    width: 140px;
+    height:30px;
+    text-align: left;
+    padding-left: 20px;
+}
+.ycBox2 p span{
+    float: right;
+    color: white;
+    margin-right: 5px;
+}
+.ycBox2 p:hover{
+    background: white;
+    color: black;
+}
+.ycBox2 p:hover span{
+    color: black;
+}
+/*购物车*/
+.wrongDiv{
+    display: none;
+    outline: 1px solid red;
+    width: 500px;
+    height:140px;
+    position: absolute;
+    left: 0;
+    top:0;
+
+}
+.wrongDiv-two{
+    width: 500px;
+    height:20px;
+    color: red;
+    font-size: 12px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    left:0;
+}
+.wrongDiv-close{
+    color: red;
+    float: right;
+    font-weight: bold;
+    width: 14px;
+    height:14px;
+    line-height: 14px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    outline: 1px solid;
+}

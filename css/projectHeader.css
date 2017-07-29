@@ -1,0 +1,405 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+	font-size: 12px;
+	background: #f5f5f5;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 200px;
+	/*background: #fefefe;*/
+}
+.headTop{
+	width: 1190px;
+	height: 35px;
+	/*border:1px solid #000;*/
+	margin:0 auto;
+	line-height: 35px;
+	/*background: #f5f5f5;*/
+}
+.headTop a{
+   color:#666;
+   margin-left: 10px;
+   /*float: left;*/
+}
+.headTop a:hover{
+   color:red;
+}
+/*.headTop a{
+	color:red;
+}*/
+.headTop .tbA{
+	margin-left: 15px;
+}
+.headTop ul{
+	float: right;
+	/*width:500px;*/
+	/*border:1px solid #f00;*/
+}
+.headTop ul li{
+	float: left;
+	position: relative;
+	margin:0 5px;
+}
+.headTop ul li a{
+     height: 20px;
+	padding:0 5px 0 0px;
+	/*display: block;*/
+}
+.headTop ul li a span{
+	margin-left: 10px;
+}
+.headTop ul li .text{
+	position: absolute;
+	top: 34px;
+	background: #fff;
+	display: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.headTop ul li .text p:hover{
+	background: #f5f5f5;
+}
+.topContainer{
+	width: 100%;
+	height: 90px;
+	padding-top:39px;
+	background-color:#fff;
+	/*border:1px solid #000;*/
+}
+.topContainer .headContent{
+	width: 1190px;
+	height: 90px;
+	margin:0 auto;
+	position: relative;
+}
+.topContainer .headContent .tbImg{
+	width: 230px;
+	height: 90px;
+	float: left;
+	/*border:1px solid #000;*/
+    background: url(../image/header/header1.jpg) no-repeat 0 10px;
+}
+.topContainer .headContent .btnButton{
+	width: 625px;
+	height: 90px;
+	/*outline: 1px solid #0f0;*/
+	float: left;
+}
+.topContainer .headContent .searchTab{
+	width: 625px;
+	float: left;
+	height: 25px;
+}
+.topContainer .headContent .searchTab span{
+	display:block;
+	width:50px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	cursor:pointer;
+	float: left;
+	color:#f40;
+}
+.topContainer .headContent .searchTab span:hover{
+	background: #f9e6e6;
+	/*color:#fff;*/
+    /*font-weight:bold ;*/
+}
+.topContainer .headContent .combobox{
+	float: left;
+	width: 472px;
+	height: 34px;
+	border:3px solid #f40;
+	border-right:none;
+	color:#aaa;
+}
+.topContainer .headContent .drop-wrapper{
+	width: 24px;
+	height: 34px;
+	float: left;
+	border:3px solid #f40;
+	border-left:none;
+}
+.topContainer .headContent .btnSearch{
+	width: 120px;
+	height: 40px;
+	background: #f40;
+	color:#fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	border:none;
+}
+.topContainer .headContent p{
+	float: left;
+	padding-top: 5px;
+}
+.topContainer .headContent p a{
+	margin-left: 10px;
+	color:#3c3c3c;
+}
+.topContainer .headContent p a:first-child{
+	margin-left: 0;
+}
+.topContainer .headContent p a:nth-child(3){
+	color:#f40;
+}
+.topContainer .headContent p a:hover{
+	color:#f40;
+}
+.topContainer .headContent p a:last-child{
+	margin-left: 35px;
+}
+.weixin{
+	width: 116px;
+	height: 114px;
+	position: absolute;
+	right:0;
+	/*border:1px solid #f00;*/
+}
+.tips{
+	width: 16px;
+	height: 114px;
+	float: left;
+	/*background: #666;*/
+}
+.tips i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #666;
+}
+.clearfix{
+	width: 96px;
+	/*border:1px solid #000;*/
+	height: 114px;
+	float: left;
+	text-align:center;
+}
+.clearfix h3{
+	text-align: center;
+	color:#f40;
+	font-weight: normal;
+}
+.navBox{
+	width: 100%;
+	height: 34px;
+	background: #fff;
+}
+.navTheme{
+	width: 1190px;
+	height: 34px;
+	margin:0 auto;
+	/*outline: 1px solid #000*/
+}
+.theme{
+	width: 190px;
+	height: 33px;
+	background:#FF6A05;
+	float: left;
+	border-bottom:1px solid #FF6905;
+}
+.theme h2{
+	color:#fff;
+	font-weight: normal;
+	line-height:33px;
+	padding-left:10px;
+	font-size: 16px;
+}
+.navHd{
+	width: 210px;
+	padding-left: 10px;
+	float: left;
+	line-height: 34px;
+}
+.navHd a{
+	color:#f40;
+	font-size: 16px;
+	margin-left: 16px;
+}
+.navBd{
+	float: left;
+	line-height: 34px;
+
+}
+.navBd a{
+   color:#666;
+   font-weight: bold;
+   font-size: 15px;
+   margin-left: 10px;
+}
+.headerContent{
+	width: 1190px;
+	height: 600px;
+	margin:0 auto;
+}
+.contentLb{
+	width: 890px;
+	height: 522px;
+	border:1px solid #00f;
+}
+.service{
+    width: 190px;
+    height: 522px;
+    background: #FF6905;
+    float: left;
+}
+.service ul li{
+	color:#fff;
+	/*margin-bottom: 15px;*/
+	padding:8px 10px;
+}
+.service ul li a{
+	color:#fff;
+	font-size: 14px;
+}
+.lunbo{
+	float: left;
+	width: 520px;
+	height: 280px;
+	border:1px solid #f00;
+	/*margin-bottom: 10px;*/
+}
+.lunbo .lunboMain{
+	width: 520px;
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+}
+.lunbo .lunboMain .lunboImg{
+	width: 2600px;
+	height: 280px;
+	position: absolute;
+}
+.lunboMain a{
+  	display: block;
+  	position: absolute;
+  	font-size: 40px;
+  	width: 30px;
+  	height: 30px;
+  	text-decoration: none;
+  	color:#000;	
+  	opacity:0.5;
+  	top:100px;
+  	z-index: 2;
+}
+#prev{ 
+  	left:10px;
+}
+#next{
+  	/*top:280px;*/
+  	right:20px;
+ }
+ .btnSpan{
+ 	position: absolute;
+  	width: 180px;
+  	height: 20px;
+  	/*border:1px solid #000;*/
+  	z-index: 999;
+  	bottom:10px;
+  	left:180px;
+ }
+.btnSpan span{
+	display: block;
+  	width: 14px;
+  	height: 14px;
+  	float:left;
+  	border-radius:7px;
+  	background: #000;
+  	opacity:0.5;
+  	margin-left: 10px;
+  	z-index: 999;
+  	transition: all ease-out 0.5s;
+}
+.btnSpan .bgcolor{
+  	background-color: #d00;
+  	opacity: 0.8;
+  }
+.lunbo .lunboMain .lunboImg img{
+	float: left;
+}
+.lunboAb{
+	width: 520px;
+	height: 28px;
+	outline: 1px solid #0f0;
+	float: left;
+
+}
+.lunbo1{
+	width: 520px;
+	height: 200px;
+	border:1px solid #000;
+	float: left;
+	position: relative;
+	/*background: #000;*/
+}
+.lunboImg1 img{
+	width: 520px;
+	height: 200px;
+	float: left;
+}
+.lunbo1 .lunboMain1{
+	width: 520px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+.lunbo1 .lunboMain1 .lunboImg1{
+	width: 2600px;
+	height: 200px;
+	position: absolute;
+}
+.lunboMain1 a{
+  	display: block;
+  	position: absolute;
+  	font-size: 40px;
+  	width: 30px;
+  	height: 30px;
+  	text-decoration: none;
+  	color:#000;	
+  	opacity:0.5;
+  	top:100px;
+  	z-index: 2;
+}
+#prev1{ 
+  	left:10px;
+}
+#next1{
+  	/*top:280px;*/
+  	right:20px;
+ }
+ .btnSpan1{
+ 	position: absolute;
+  	width: 180px;
+  	height: 20px;
+  	/*border:1px solid #000;*/
+  	z-index: 999;
+  	bottom:10px;
+  	left:180px;
+ }
+.btnSpan1 span{
+	display: block;
+  	width: 14px;
+  	height: 14px;
+  	float:left;
+  	border-radius:7px;
+  	background: #000;
+  	opacity:0.5;
+  	margin-left: 10px;
+  	z-index: 999;
+  	transition: all ease-out 0.5s;
+}
+.btnSpan1 .bgcolor1{
+  	background-color: #d00;
+  	opacity: 0.8;
+  }

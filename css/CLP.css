@@ -1,0 +1,817 @@
+*{
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f1f1f1;
+}
+.contentBox1-Left{
+    margin: auto;
+    width: 1190px;
+    height:1780px;
+    /*outline: 1px solid;*/
+    position: relative;
+
+}
+/*我常逛的*/
+.contentBox1{
+    float: left;
+    width: 1190px;
+    height:769px;
+    margin-bottom: 15px;
+}
+.contentBox1-top{
+    line-height: 30px;
+    width: 890px;
+    height:40px;
+}
+.contentBox1-top p{
+    background: url("../image/projectConBox4/TB1vQzVOVXXXXX4XpXXXXXXXXXX-220-1170.png") 0 -600px;
+    width: 230px;
+    height: 40px;
+    float: left;
+    margin-left:330px;
+}
+.contentBox1-top a{
+    float: right;
+    width: 60px;
+    height:20px;
+    border-radius: 10px;
+    background:white;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px 0 0;
+}
+.contentBox1-top a:hover{
+    background: #ff4400;
+    color: white;
+}
+.contentBox1-smallBox{
+    width: 440px;
+    height:362px;
+    float: left;
+    background: #efefef;
+    margin:0 10px 5px 0;
+}
+.contentBox1-smallBox-left{
+    width: 100px;
+    height:362px;
+    float: left;
+    background: #406cc0;
+}
+.contentBox1-smallBox-left img{
+    cursor: pointer;
+}
+.ul-first p{
+    color: white;
+    margin-left: 8px;
+    height:25px;
+    width: 100px;
+    margin-top: 3px;
+}
+.ul-first li{
+    text-align: center;
+    width: 65px;
+    height:20px;
+    background: #6689cd;
+    list-style: none;
+    margin-bottom:3px;
+    margin-left: 8px;
+    color: white;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.ul-first li:hover{
+    background: white;
+    color: #ff6011;
+}
+.contentBox1-smallBox-right{
+    cursor: pointer;
+    width: 336px;
+    height:358px;
+    float: left;
+    border: 2px solid #c6d3ec;
+    overflow: hidden;
+}
+.contentBox1-smallBox-right:hover{
+    border: 2px solid #406cc0;
+}
+.contentBox1-smallBox-right-one{
+    width: 202px;
+    height:358px;
+    float: left;
+}
+.contentBox1-smallBox-right-one1 {
+    width: 100px;
+    height: 201px;
+    float: left;
+    margin-right: 1px;
+    background: white;
+}
+
+.contentBox1-smallBox-right-one1:hover{
+    opacity: 0.9;
+}
+.contentBox1-smallBox-right-one2{
+    width: 181px;
+    height:136px;
+    float: left;
+    padding: 10px;
+    background: white;
+    margin-top: 1px;
+}
+.contentBox1-smallBox-right-one2img{
+    background: url("../image/projectConBox4/rt3.jpg") no-repeat;
+    background-size:  200px 170px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+    padding-top: 40px;
+    overflow: hidden;
+    color: black;
+    display: block;
+}
+.contentBox1-smallBox-right-one2img:hover{
+    opacity: 0.8;
+}
+.XianShi{
+    width: 180px;
+    height:70px;
+    position: absolute;
+    bottom: -45px;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+.contentBox1-smallBox-right-oneHide{
+    width: 180px;
+    height:24px;
+    float: left;
+}
+/*.contentBox1-smallBox-right-oneHide:hover{*/
+    /*color: red;*/
+/*}*/
+.end{
+    position:absolute;
+    bottom:0;
+    transition:1s;
+}
+.end1{
+    position:absolute;
+    bottom:-45px;
+    transition:1s;
+}
+.contentBox1-smallBox-right-oneShow{
+    width: 180px;
+    height:70px;
+    background: white;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+    opacity: 0.9;
+
+}
+.contentBox1-smallBox-right-oneHide button{
+    border: 0;
+    width: 50px;
+    height:24px;
+    background: #459ac4;
+    color: white;
+    display: block;
+    float: left;
+}
+.contentBox1-smallBox-right-oneHide p{
+    opacity: 0.9;
+    background: white;
+    float: left;
+    width: 130px;
+    height:24px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+.contentBox1-smallBox-right-one2:hover p{
+    color: red;
+}
+.contentBox1-2-smallBox-right-one2:hover p{
+    color: red;
+}
+.contentBox1-smallBox-right-two{
+    width:134px;
+    height:358px;
+    float: left;
+}
+.contentBox1-smallBox-right-tow1-1{
+    width: 134px;
+    height:100px;
+    float: left;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.contentBox1-smallBox-right-tow1-1:hover{
+    color: red;
+}
+
+.contentBox1-smallBox-right-tow1-2{
+    padding: 16px 0 0 10px;
+    height:90px;
+    width: 52px;
+    float: left;
+    font-size: 12px;
+}
+
+.contentBox1-smallBox-right-tow1-3{
+    padding-top: 25px;
+    float: left;
+    width: 65px;
+    height:75px;
+}
+.contentBox1-smallBox-right-tow1-3 img{
+    width: 60px;
+    height:60px;
+}
+.contentBox1-smallBox-right-tow2{
+    width: 120px;
+    height:63px;
+    margin-bottom: 1px;
+    background: white;
+    float: left;
+    padding: 7px;
+
+}
+.contentBox1-smallBox-right-tow2-div1{
+    position: relative;
+    background: url("../image/projectConBox4/105.jpg");
+    width: 120px;
+    height:65px;
+}
+
+.contentBox1-smallBox-right-tow2-div1:hover{
+    opacity: 0.7;
+}
+
+.contentBox1-smallBox-right-tow2-div2{
+    position: relative;
+    background: url("../image/projectConBox4/82.jpg");
+    width: 120px;
+    height:65px;
+}
+.contentBox1-smallBox-right-tow2-div2:hover{
+    opacity: 0.7;
+}
+.contentBox1-smallBox-right-tow2 div p{
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 120px;
+    height:20px;
+    font-size: 12px;
+    float: left;
+    background: white;
+    opacity: 0.7;
+}
+.contentBox1-smallBox-right-tow2 div:hover p{
+    color: red;
+    opacity: 1;
+}
+
+
+/*第二小块*/
+.contentBox1-smallBox2-right{
+    cursor: pointer;
+    width: 336px;
+    height:358px;
+    float: left;
+    border: 2px solid #fcf5cd;
+}
+.contentBox1-smallBox2-right:hover{
+    border: 2px solid #f6de58;
+}
+.ul-second li{
+    list-style: none;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.ul-second li a{
+    line-height: 20px;
+    margin:0 3px 3px 0;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 40px;
+    height:20px;
+    background: #f8e579;
+    text-align: center;
+    color: white;
+}
+.ul-second li a:hover{
+    background: white;
+    color: #ff6011;
+}
+.contentBox1-2-smallBox-right-one2{
+    width: 181px;
+    height:136px;
+    float: left;
+    padding: 10px;
+    background: white;
+    margin-top: 1px;
+    overflow: hidden;
+}
+.contentBox1-2-smallBox-right-one2img{
+    background: url("../image/projectConBox4/TB1TYA7QVXXXXcMapXXXXXXXXXX-360-280.jpg_180x180q90.jpg");
+    width: 180px;
+    height: 140px;
+    position: relative;
+    overflow: hidden;
+}
+.contentBox1-2-smallBox-right-one2img:hover{
+    opacity: 0.8;
+}
+
+
+.contentBox1-2-smallBox-right-tow2-div1{
+    position: relative;
+    background: url("../image/projectConBox4/81.jpg");
+    width: 120px;
+    height:65px;
+}
+.contentBox1-2-smallBox-right-tow2-div1:hover{
+    opacity: 0.7;
+}
+.contentBox1-2-smallBox-right-tow2-div2{
+    position: relative;
+    background: url("../image/projectConBox4/72.jpg");
+    width: 120px;
+    height:65px;
+}
+.contentBox1-2-smallBox-right-tow2-div2:hover{
+    opacity: 0.7;
+}
+
+
+
+/*第三小块*/
+.contentBox1-smallBox3-right{
+    cursor: pointer;
+    width: 336px;
+    height:358px;
+    float: left;
+    border: 2px solid #f7c7c8;
+}
+.contentBox1-smallBox3-right:hover{
+    border: 2px solid #e44346;
+}
+.ul-three li{
+    list-style: none;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.ul-three li a{
+    line-height: 20px;
+    margin:0 3px 3px 0;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 64px;
+    height:20px;
+    background: #ea696b;
+    text-align: center;
+    color: white;
+}
+.ul-three li a:hover{
+    background: white;
+    color: #ff6011;
+}
+.contentBox1-smallBox-right-one1img1{
+    width: 100px;
+    height:100px;
+    float: left;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 12px;
+    position: relative;
+}
+.contentBox1-smallBox-right-one1img1 p{
+    position: absolute;
+    bottom: 5px;
+    width: 100px;
+    height:25px;
+    text-align: center;
+    line-height: 25px;
+    background: white;
+    opacity: 0.7;
+}
+.contentBox1-smallBox-right-one1img1:hover p{
+    opacity: 1;
+    color: red;
+}
+.contentBox1-smallBox-right-one1img2{
+    width: 100px;
+    height:100px;
+    float: left;
+    font-size: 12px;
+    position: relative;
+}
+.contentBox1-smallBox-right-one1img2 p{
+    position: absolute;
+    bottom: 5px;
+    width: 100px;
+    height:25px;
+    text-align: center;
+    line-height: 25px;
+    background: white;
+    opacity: 0.7;
+}
+.contentBox1-smallBox-right-one1img2:hover p{
+    opacity: 1;
+    color: red;
+}
+.contentBox1-3-smallBox-right-one2img{
+    background: url("../image/projectConBox4/66.jpg");
+    width: 180px;
+    height: 140px;
+    position: relative;
+}
+.contentBox1-3-smallBox-right-one2img:hover{
+    opacity: 0.8;
+}
+.contentBox1-3-smallBox-right-oneHide{
+    width: 180px;
+    height:24px;
+    position: absolute;
+    bottom: 0;
+}
+.contentBox1-3-smallBox-right-oneHide button{
+    border: 0;
+    width: 60px;
+    height:24px;
+    background: #e44346;
+    color: white;
+    display: block;
+    float: left;
+}
+.contentBox1-3-smallBox-right-oneHide p{
+    opacity: 0.7;
+    float: left;
+    width: 120px;
+    height:24px;
+    background: white;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+.contentBox1-2-smallBox-right-one2:hover p{
+    opacity: 1;
+}
+.contentBox1-smallBox3-right-tow1-1{
+    width: 134px;
+    height:201px;
+    float: left;
+    margin-bottom: 1px;
+    background: white;
+}
+.contentBox1-smallBox3-right-tow1-1 img{
+    width: 134px;
+    height:201px;
+    background: white;
+}
+.contentBox1-smallBox3-right-tow1-1 img:hover{
+    opacity: 0.8;
+}
+.contentBox1-smallBox3-right-font{
+    width: 50px;
+    height:50px;
+    margin-top: 10px;
+    float: left;
+    font-size: 12px;
+}
+.contentBox1-smallBox-right-tow2:hover span{
+    color: black;
+}
+.contentBox1-smallBox-right-tow2:hover{
+    color: red;
+}
+.contentBox1-smallBox3-right-fontim{
+    display: block;
+    float: right;
+}
+
+
+/*第四小块*/
+.contentBox1-smallBox4-right{
+    cursor: pointer;
+    width: 336px;
+    height:358px;
+    float: left;
+    border: 2px solid #f7c7c8;
+}
+.contentBox1-smallBox4-right:hover{
+    border: 2px solid #fe6fa6;
+}
+.ul-four li{
+    list-style: none;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.ul-four li a{
+    line-height: 20px;
+    margin:0 3px 3px 0;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 40px;
+    height:20px;
+    background: #fe8cb8;
+    text-align: center;
+    color: white;
+}
+.ul-four li a:hover{
+    background: white;
+    color: #ff6011;
+}
+.contentBox1-3-smallBox4-right-one2img{
+    background: url("../image/projectConBox4/108.jpg");
+    width: 180px;
+    height: 140px;
+    position: relative;
+}
+.contentBox1-3-smallBox4-right-one2img:hover{
+    opacity: 0.8;
+}
+.contentBox1-3-smallBox4-right-oneHide{
+    width: 180px;
+    height:24px;
+    position: absolute;
+    bottom: 0;
+}
+.contentBox1-3-smallBox4-right-oneHide button{
+    border: 0;
+    width: 50px;
+    height:24px;
+    background: #fe6fa6;
+    color: white;
+    display: block;
+    float: left;
+}
+.contentBox1-3-smallBox4-right-oneHide p{
+    opacity: 0.7;
+    float: left;
+    width: 130px;
+    height:24px;
+    background: white;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+.contentBox1-3-smallBox4-right-oneHide p:hover{
+    opacity: 1;
+}
+
+/*导航图*/
+.contentBox1-banner{
+    background: url("../image/projectConBox4/aa.jpg");
+    width: 885px;
+    height:70px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+/*时尚爆料网*/
+
+.contentBox2{
+    width: 890px;
+    height:300px;
+    float: left;
+    margin-bottom: 20px;
+}
+.contentBox2-top{
+    line-height: 30px;
+    width: 890px;
+    height:40px;
+}
+.contentBox2-top p{
+    background: url("../image/projectConBox4/TB1vQzVOVXXXXX4XpXXXXXXXXXX-220-1170.png") 0 -720px;
+    width: 230px;
+    height: 40px;
+    float: left;
+    margin-left:330px;
+}
+.contentBox2-top a{
+    float: right;
+    width: 60px;
+    height:20px;
+    border-radius: 10px;
+    background:white;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px 0 0;
+}
+.contentBox2-top a:hover{
+    background: #ff4400;
+    color: white;
+}
+
+/*contentBox2第一块*/
+.contentBox2-cont{
+    width: 221px;
+    height:260px;
+    float: left;
+    margin-right: 1px;
+    position: relative;
+}
+.smallImg{
+    cursor: pointer;
+}
+/*隐藏的二维码*/
+.ImgDis{
+    width: 80px;
+    height:94px;
+    outline: 1px solid #cccccc;
+    background: white;
+    position: absolute;
+    float: left;
+    top: 30px;
+    right: 2px;
+    font-size: 12px;
+    padding: 10px 0 0 10px;
+    display: none;
+}
+.contentBox2-cont:hover{
+    outline: 1px solid red;
+}
+.contentBox2-cont-img{
+    width: 221px;
+    height:38px;
+    background: white;
+    float: left;
+}
+.contentBox2-cont-img1{
+    cursor: pointer;
+    width: 85px;
+    height:20px;
+    margin:10px 0 0 68px;
+}
+.smallImg{
+    width: 25px;
+    height:25px;
+}
+.contentBox2-cont-one{
+    width: 91px;
+    height:201px;
+    background: white;
+    padding: 10px;
+    margin: 1px 1px 0 0;
+    float: left;
+    cursor: pointer;
+    position: relative;
+}
+.contentBox2-cont-one:hover{
+    opacity: 0.9;
+}
+.contentBox2-cont-one p{
+    position: absolute;
+    bottom: 10px;
+    width: 85px;
+    height:39px;
+    background:#ff0055;
+    color: white;
+    font-size: 12px;
+    padding: 3px 0 0 5px;
+}
+.contentBox2-cont-two{
+    width: 89px;
+    height:90px;
+    background: white;
+    float: left;
+    margin-top: 1px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.contentBox2-cont-two img{
+    width: 89px;
+    height:90px;
+
+}
+.contentBox2-cont-two p{
+    position: absolute;
+    bottom: 10px;
+    width: 89px;
+    height:20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    background: white;
+    opacity: 0.7;
+
+}
+.contentBox2-cont-two:hover p{
+    opacity: 1;
+    color: red;
+}
+
+/*品质生活家*/
+.contentBox3{
+    width: 890px;
+    height:580px;
+    float: left;
+}
+.contentBox3-top{
+    line-height: 30px;
+    width: 890px;
+    height:40px;
+}
+.contentBox3-top p{
+    background: url("../image/projectConBox4/TB1vQzVOVXXXXX4XpXXXXXXXXXX-220-1170.png") 0 -680px;
+    width: 230px;
+    height: 40px;
+    float: left;
+    margin-left:330px;
+}
+.contentBox3-top a{
+    float: right;
+    width: 60px;
+    height:20px;
+    border-radius: 10px;
+    background:white;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px 0 0;
+}
+.contentBox3-top a:hover{
+    background: #ff4400;
+    color: white;
+}
+
+.contentBox3-cont1{
+    width: 890px;
+    height:270px;
+    float: left;
+}
+.contentBox3-lable{
+    width: 90px;
+    height:50px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    display: block;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#contentBox2-xxx:hover{
+    color: red;
+}
+#contentBox2-xxx2:hover{
+    color: red;
+}
+#contentBox2-xxx3:hover{
+    color: red;
+}
+#contentBox2-xxx4:hover{
+    color: red;
+}
+#contentBox2-aaa1:hover{
+    color: red;
+}
+#contentBox2-aaa2:hover{
+    color: red;
+}
+#contentBox2-aaa3:hover{
+    color: red;
+}
+#contentBox2-aaa4:hover{
+    color: red;
+}
+.contentBox3-lable2{
+    width: 73px;
+    text-align: center;
+    font-size: 12px;
+    height:40px;
+    display: block;
+    float: left;
+    line-height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.contentBox3-span1:hover{
+    color: red;
+}
+.contentBox3-span2:hover{
+    color: red;
+}
